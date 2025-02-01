@@ -1,0 +1,506 @@
+.container {
+    width: 1200px;
+    background-color: #eee;
+    margin: 20px auto;
+
+
+}
+.one{
+    background-image: url("img/helwa.jpg");
+}
+h3{
+    color: #686767;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.two{
+    display: flex;
+}
+.two .three{
+    width: 35%;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+.two ul{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+}
+.two ul li{
+    opacity: .5;
+}
+.two ul li:hover{
+    color: white;
+    opacity: 1;
+}
+.two .four{
+    color: white;
+    padding: 17px;
+  margin-left: 83px;
+  border: 1px solid #888383;
+  border-radius: 17px;
+  width: 95px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+.two .four:hover{
+    background-color: rgb(88, 149, 188);
+}
+.five{
+    display: flex;
+}
+.six{
+    width: 50%;
+    padding: 30px;
+    color: white;
+}
+.six h2{
+    font-weight: bold;
+    font-size: 30px;
+    width: 250px;
+}
+.six p{
+    color: #ddd;
+    font-size: 15px;
+}
+.five .seven{
+    display: flex;
+    position: relative;
+}
+.five .seven button{
+    background-color: rgb(196, 134, 26);
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    padding: 13px;
+    color: white;
+    text-align: center;
+}
+.five .seven button:hover{
+    background-color: rgb(88, 149, 188);
+}
+.five .seven span{
+    margin: 10px;
+    position: absolute;
+    top: 12px;
+    left: 158px;
+}
+.five .seven span::after{
+    font-family: "Font Awesome 6 Free";
+    content: "\f061";
+    font-weight: 900;
+    margin-left: 8px;
+    position: absolute;
+    top: 3px;
+    left: 79px;
+}
+.five img{
+    width: 243px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 20px;
+}
+.nine{
+    display: flex;
+    padding: 50px;
+}
+.nine .hh{
+    width: 50%;
+    padding: 30px;
+    font-weight: bold;
+}
+.nine .hh p{
+    color: #b1a9a9;
+}
+.nine .eee{
+    color: rgb(0, 149, 255);
+}
+.nine .eee i {
+    margin: 12px 0 0 5px;
+}
+.nine .jj{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 600px;
+}
+.nine .jj div{
+    width: 250px;
+}
+.jj  img{
+    background-color: rgb(56, 56, 214);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px black;
+}
+.jj h2{
+    font-weight: bold;
+}
+.jj p{
+    color: #777;
+}
+.page2{
+    background-color: white;
+}
+.page2 .yy{
+    display: flex;
+    justify-content: space-between;
+
+}
+.page2 .yy h2{
+    width: 50%;
+    padding: 30px;
+    font-weight: bold;
+}
+.page2 .yy span{
+    font-size: 16px;
+    padding: 49px;
+    color: #777;
+}
+.page2 .fg{
+    display: flex;
+    justify-content: space-between;
+}
+.page2 .fg .zz{
+    width: 929px;
+    height: 517px;
+    background-image: url("img/rt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2 .fg .zz span{
+    background-color: rgb(0 0 0 / 40%);
+    width: 50%;
+    display: block;
+    height: 94%;
+    position: relative;
+    /* z-index: 555; */
+}
+.page2 .fg .zz span h3{
+    color: white;
+    width: 250px;
+    padding: 30px;
+}
+.page2 .fg .zz span p{
+    color: white;
+    opacity: .5;
+    padding: 30px;
+}
+.page2 .fg .zz span .v{
+    color: white;
+    padding: 30px;
+}
+.page2 .fg .fs{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+
+}
+.page2 .fg .fs .xx{
+    background-image: url("img/we.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 225px;
+    height: 368px;
+
+}
+.page2 .fg .fs .xx .aa{
+        background-color: rgb(0 0 0 / 50%);
+        display: block;
+        height: 100%;
+}
+.page2 .fg .fs .xx .aa .oneee{
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 40px;
+}
+.page2 .fg .fs .xx .aa .v{
+    color: wheat;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 20px;
+}
+.omnia h6{
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        color: #555454;
+}
+.omnia h1{
+    text-align: center;
+    margin: 20px auto;
+    width: 350px;
+}
+.omnia .ggg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.omnia .ggg div{
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.omnia .ggg div i{
+    font-size: 30px;
+    color: rgb(91, 115, 186);
+    padding: 20px;
+    
+}
+.omnia .ggg h3{
+    color: black;
+}
+.omnia .ggg p{
+    color: #706d6d;
+}
+.www{
+    display: flex;
+    padding: 30px;
+}
+.www .ccc{
+    width: 600px;
+}
+.www .ccc p{
+    color: #777;
+}
+.www .bbb{
+    width: 700px;
+}
+.www .bbb p{
+    font-size: 20px;
+}
+.www .bbb .jjj{
+    display: flex;
+}
+.www .bbb .jjj img{
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+}
+.www .bbb .jjj .mm span{
+    display: block;
+}
+.www .bbb .jjj .mm  .pp{
+    font-weight: bold;
+}
+.www .bbb .jjj .mm  .po{
+    font-size: 10px;
+    padding: 9px;
+  color: #333;
+}
+.oone{
+    display: flex;
+    padding: 30px;
+    background-color: #e6e6e6;
+}
+.oone .iii{
+    width: 400px;
+}
+.oone .iii div{
+    font-weight: bold;
+    padding: 10px;
+}
+.oone .iii span{
+    color: rgb(91, 115, 186);
+}
+.oone .ttwo{
+    width: 700px;
+}
+.oone .ttwo div .nnn{
+    display: flex;
+    flex-direction: column;
+}
+.oone .ttwo div{
+    display: flex;
+    justify-content: space-between;
+}
+.ttwo div span{
+    padding: 10px;
+    color: rgb(74, 99, 176);
+    font-weight: bold;
+}
+.ttwo div p:not(:first-child){
+    padding: 20px;
+border-bottom: 1px solid #777;
+width: 100%;
+}
+.oone .ttwo div .nnn .ss{
+    color: #777;
+}
+.ttwo div i{
+    color: #777;
+}
+.extra {
+    display: flex;
+}
+.extra .sudo{
+    width: 500px;
+    background-image: url("img/b.jpg");
+
+}
+.extra .sudo div{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 200px;
+    padding: 20px;
+}
+.extra .sudo p{
+    color: #9c9292;
+    font-size: 15px;
+}
+.extra .lodo{
+    width: 700px;
+    background-color: #665252;
+    display: flex;
+    flex-direction: column;
+    
+}
+.extra .lodo h2{
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+.extra .lodo p{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+.extra .lodo input{
+    background-color: rgba(0, 0, 0, 0.01);
+    outline: none;
+    border: 1px solid #777;
+    margin: 20px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 49px;
+    color: white;
+}
+.extra .lodo input.lll{
+    background-color: #cb5252;
+    margin-left: 20px;
+}
+.extra .lodo input.lll:hover{
+    background-color: rgb(140, 187, 69);
+}
+.extra .lodo span{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.com h1{
+    padding: 20px;
+    color: rgb(96, 168, 216);
+}
+.com .free{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.com .free div{
+    width: 250px;
+    padding: 20px;
+}
+.com .free div span{
+    color: #777;
+}
+.com .free div img{
+        width: 240px;
+}
+.com .free div .rt{
+    color: #777;
+}
+.com .free div span{
+    color: #333;
+}
+.com .free div .ws{
+    padding: 11px;
+    margin-top: 7px;
+    display: block;
+}
+.last{
+    display: flex;
+    background-color: rgb(33, 104, 89);
+    color: white;
+    padding: 20px 10px 0 30px;
+    
+
+}
+.last .last1{
+    width: 400px;
+    align-content: space-between;
+    
+}
+.last .last1 h2{
+    font-weight: bold;
+
+}
+.last .last1 p{
+    font-size: 15px;
+    color: #ddd;
+    
+}
+.last .last1 .last3{
+    display: flex;
+    background-color: rgb(123, 213, 33);
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.last .last1 .last3 {
+    
+}
+.last .last2{
+    width: 600px;
+    padding: 16px;
+    margin-left: 79px;
+
+}
+.last .last2 h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.last .last2 p{
+    font-size: 15px;
+    color: #ddd;
+}
+.last .last2 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 25px;
+    list-style: none;
+}
+.last .last2 ul li:hover{
+    color: rgb(0, 128, 255);
+}
+.res{
+    display: flex;
+}
+.res .esr{
+    width: 600px;
+    padding: 20px;
+}
+.res .cvb ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 440px;
+    margin-left: 30px;
+}
+/* .esr .cvb ul li {
+    justify-content: space-between;
+} */
+.res .cvb ul li:hover{
+    color: Blue;
+}
